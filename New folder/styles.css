@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background-image: url("https://wallpapercave.com/wp/wp1829143.jpg"); /* pastikan jalur file benar */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center; /* Biasanya lebih baik menggunakan "center" */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+header {
+    background-color: rgb(13, 19, 84);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+}
+main {
+    font-family: fantasy;
+    font-size: medium;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+
+h2 p u {
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    align-items: end;
+    font-family: fantasy;
+    font-size: 98%;
+    color: rgb(255, 255, 255);
+}
